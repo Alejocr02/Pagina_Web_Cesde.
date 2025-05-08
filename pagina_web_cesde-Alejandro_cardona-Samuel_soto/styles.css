@@ -7,7 +7,22 @@ header{
 padding: 10px 30px;
 background-color:deeppink ;
 }
-
+.login-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 14px;
+    background-color: rgb(254, 27, 148);
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 2px 3px 5px #0000006d;
+    cursor: pointer;
+}
+.login-btn:hover{
+    background-color: rgb(195, 30, 121);
+}
 body{
     background-image: url(img/fondo-aprendizaje.jpg);
 }
@@ -49,7 +64,7 @@ height: 400px;
 background-image: url(img/portada-cesde.jpg);
 background-size: cover;
 background-position: center;
-background: repeat: no-repeat;
+
 }
 
 .intro{
